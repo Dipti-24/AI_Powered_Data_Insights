@@ -8,13 +8,15 @@ The AI-Driven Report Generator is a Streamlit-based web application that allows 
 
 **1.** Upload CSV/Excel files or connect to an SQLite database
 
-**2.** Generate statistical summaries of the dataset
+**2.** Remove null values and duplicate entries with one click.
 
-**3.** Get AI-generated insights using DeepSeek API
+**3.** Generate statistical summaries of the dataset
 
-**4.** Ask AI-driven questions about the dataset
+**4.** Get AI-generated insights using DeepSeek API
 
-**5.** Visualize data with interactive charts (histograms, KDE plots, etc.)
+**5.** Ask AI-driven questions about the dataset
+
+**6.** Visualize data with interactive charts (histograms, correlation heatmaps.)
 
 ## Technologies Used
 
@@ -58,11 +60,11 @@ pip install -r requirements.txt
 
 - Preview Data: The first few rows of the dataset will be displayed.
 
-- Generate Insights: The AI model analyzes the dataset and provides key observations.
+- Generate Insights: The AI model analyzes the dataset and provides key observations and click on Clean Data to remove null values and duplicates.
 
 - Ask a Question: Enter a natural language query to get AI-generated responses.
 
-- Visualize Data: Select a column to generate plots (histograms, KDE plots, etc.).
+- Visualize Data: Select a column to generate plots (histograms, correlation heatmaps).
 
 ## Future Enhancements
 
