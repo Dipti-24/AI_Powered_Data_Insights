@@ -6,29 +6,29 @@ The AI-Driven Report Generator is a Streamlit-based web application that allows 
 
 ## Features
 
-1. Upload CSV/Excel files or connect to an SQLite database
+**1.** Upload CSV/Excel files or connect to an SQLite database
 
-2. Generate statistical summaries of the dataset
+**2.** Generate statistical summaries of the dataset
 
-3. Get AI-generated insights using DeepSeek API
+**3.** Get AI-generated insights using DeepSeek API
 
-4. Ask AI-driven questions about the dataset
+**4.** Ask AI-driven questions about the dataset
 
-5. Visualize data with interactive charts (histograms, KDE plots, etc.)
+**5.** Visualize data with interactive charts (histograms, KDE plots, etc.)
 
 ## Technologies Used
 
-1. Streamlit – Web interface
+**1.** Streamlit – Web interface
 
-2. Pandas – Data processing
+**2.** Pandas – Data processing
 
-3. Matplotlib & Seaborn – Data visualization
+**3.** Matplotlib & Seaborn – Data visualization
 
-4. SQLite3 – Database connection
+**4.** SQLite3 – Database connection
 
-5. DeepSeek API – AI-powered insights
+**5.** DeepSeek API – AI-powered insights
 
-6. Requests – API communication
+**6.** Requests – API communication
 
 ## Installation
 
