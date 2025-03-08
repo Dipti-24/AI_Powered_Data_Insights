@@ -32,25 +32,25 @@ The AI-Driven Report Generator is a Streamlit-based web application that allows 
 
 ## Installation
 
-1. Clone the Repository
+**1. Clone the Repository**
 
-git 
-cd 
+git https://github.com/Dipti-24/AI_Gen_Reported.git
+
+cd AI_Gen_Reported
 
 
-2. Install Dependencies
+**2. Install Dependencies**
 
 pip install -r requirements.txt
 
-3. Configure API Key
 
-Create a config.py file in the project directory.
+**3. Configure API Key**
 
-Add your DeepSeek API Key:
++ Create a config.py file in the project directory.
 
-DEEPSEEK_API_KEY = "your-api-key-here"
++ Add your DeepSeek API Key
 
-4. Run the Streamlit App
+**4. Run the Streamlit App**
 
 ### Using the App
 
