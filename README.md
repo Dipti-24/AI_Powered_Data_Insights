@@ -70,7 +70,7 @@ pip install -r requirements.txt
 
 + Integration with local LLMs like Ollama to reduce API dependency
 
-+ Advanced visualizations like correlation heatmaps and scatter plots
++ Export generated AI Insights as PDF/Excel
 
 ## License
 
