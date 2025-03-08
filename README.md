@@ -1,4 +1,4 @@
-# AI-Driven Report Generator For differrent datasets
+# AI Powered Data Insights
 
 ## Overview
 
