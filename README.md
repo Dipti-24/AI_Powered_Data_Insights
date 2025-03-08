@@ -34,9 +34,9 @@ The AI-Driven Report Generator is a Streamlit-based web application that allows 
 
 **1. Clone the Repository**
 
-git https://github.com/Dipti-24/AI_Gen_Reported.git
+git https://github.com/Dipti-24/AI_Powered_Data_Insights.git
 
-cd AI_Gen_Reported
+cd AI_Powered_Data_Insights
 
 
 **2. Install Dependencies**
