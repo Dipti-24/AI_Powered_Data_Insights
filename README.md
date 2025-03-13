@@ -2,7 +2,7 @@
 
 ## Overview
 
-The AI-Driven Report Generator is a Streamlit-based web application that allows users to upload datasets, clean data, generate AI-powered insights, and visualize data using DeepSeek API. This tool is designed for data analysts and business professionals to quickly analyze and interpret their datasets.
+The AI-Driven data insights is a Streamlit-based web application that allows users to upload datasets, clean data, generate AI-powered insights, and visualize data using DeepSeek API. This tool is designed for data analysts and business professionals to quickly analyze and interpret their datasets.
 
 ## Features
 
