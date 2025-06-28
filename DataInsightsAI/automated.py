@@ -9,7 +9,7 @@ from config import DEEPSEEK_API_KEY
 
 # print(DEEPSEEK_API_KEY)
 # Define API URL
-DEEPSEEK_API_URL = "https://api.deepseek.com/v1/chat/completions"
+DEEPSEEK_API_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 # Streamlit UI
 st.title("🚀 AI-Powered Data Insights")
@@ -53,7 +53,7 @@ if df is not None:
 
     # Prepare payload for DeepSeek API
     payload = {
-        "model": "deepseek-chat",
+        "model": "mistralai/mistral-small-3.2-24b-instruct:free",
         "messages": [
             {"role": "system", "content": "You are a helpful AI assistant."},
             {"role": "user", "content": f"Analyze the following dataset and provide insights:\n\n{data_summary}"}
@@ -61,7 +61,11 @@ if df is not None:
         "stream": False
     }
     
-    headers = {"Authorization": f"Bearer {DEEPSEEK_API_KEY}", "Content-Type": "application/json"}
+  
+    headers = {
+    "Authorization": f"Bearer {DEEPSEEK_API_KEY}",
+    "Content-Type": "application/json"
+    }
 
     # Make API request
     response = requests.post(DEEPSEEK_API_URL, json=payload, headers=headers)
@@ -82,7 +86,7 @@ if df is not None:
     
     if user_query:
         query_payload = {
-            "model": "deepseek-chat",
+            "model": "mistralai/mistral-small-3.2-24b-instruct:free",
             "messages": [
                 {"role": "system", "content": "You are a data analyst."},
                 {"role": "user", "content": f"Based on this dataset, answer: {user_query}\n\nDataset:\n{df.to_string()}"}
