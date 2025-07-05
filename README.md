@@ -18,6 +18,8 @@ The AI-Driven data insights is a Streamlit-based web application that allows use
 
 **6.** Visualize data with interactive charts (histograms, correlation heatmaps.)
 
+**7.** Run anywhere with Docker 
+
 ## Technologies Used
 
 **1.** Streamlit – Web interface
@@ -28,32 +30,46 @@ The AI-Driven data insights is a Streamlit-based web application that allows use
 
 **4.** SQLite3 – Database connection
 
-**5.** DeepSeek API – AI-powered insights
+**5.** DeepSeek API – Openrouter-ai
 
 **6.** Requests – API communication
 
+**7**  Docker – Containerization
+
 ## Installation
 
-**1. Clone the Repository**
+**Clone the Repository**
 
 git https://github.com/Dipti-24/AI_Powered_Data_Insights.git
 
 cd AI_Powered_Data_Insights
 
 
-**2. Install Dependencies**
+### Run without Docker
+
+**1. Install Dependencies**
 
 pip install -r requirements.txt
 
 
-**3. Configure API Key**
+**2. Configure API Key**
 
-+ Create a config.py file in the project directory.
++ Create a config.py file in the project directory
++ Set your key in a .env file
 
-+ Add your DeepSeek API Key
+**3. Run the Streamlit App**
++ streamlit run app.py
 
-**4. Run the Streamlit App**
+### Run with Docker
 
+**1. Build the Docker Image**
++ docker build -t ai-data-insights .
+     
+**2.  Run the Docker Container**
++ docker run --env-file .env -p 8501:8501 ai-data-insights
++ Then visit: http://localhost:8501
+
+ 
 ### Using the App
 
 - Choose Data Source: Upload a CSV/Excel file or connect to an SQLite database.
