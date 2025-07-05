@@ -12,7 +12,7 @@ from config import DEEPSEEK_API_KEY  # securely stored API key
 # ===== Rate Limit Setup =====
 DEEPSEEK_API_URL = "https://openrouter.ai/api/v1/chat/completions"
 COOLDOWN_SECONDS = 60
-MAX_DAILY_CALLS = 10
+MAX_DAILY_CALLS = 30
 
 def is_rate_limited():
     current_time = time.time()
