@@ -82,6 +82,10 @@ pip install -r requirements.txt
 
 - Visualize Data: Select a column to generate plots (histograms, correlation heatmaps).
 
+### Live Deployment
+🌐 Deployed on Render:
+Visit here → https://ai-powered-data-insights-3.onrender.com
+
 ## Future Enhancements
 
 + Integration with local LLMs like Ollama to reduce API dependency
